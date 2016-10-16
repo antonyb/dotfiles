@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-export DOTFILES_DIR=~/dotfiles
-
+export DOTFILES_DIR=$HOME/dotfiles
 
 ln -sfv "$DOTFILES_DIR/.vimrc" ~
+ln -sfv "$DOTFILES_DIR/.gitconfig" ~
 
